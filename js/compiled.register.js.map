@@ -1,0 +1,1 @@
+{"version":3,"sources":["register.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA","file":"compiled.register.js","sourcesContent":["$(function(){\n\t$(\".plan-selector\").click(function(e){\n\t\te.preventDefault();\n\t\t$(\"#form-plan\").val($(this).data('plan'));\n\t\t$(\"#choose-plan-form\").submit();\n\t})\n})"]}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ECFix</title>
+        <meta name="description" content="">
+        <meta name="title" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link href="css/app.css" rel="stylesheet">
+    </head>
+    <body class="register">
+        <div class="wrapper">
+            <div class="avatar"></div>
+            <header>
+                <div class="container text-center">
+                    <a href="/" class="logo"><img src="img/logo.svg"></a>
+                </div>
+            </header>
+            <main>
+                <div class="inner-container">
+                    <div class="register-panel choose-plan text-center">
+                        <img src="img/register-label.jpg">
+                        <div class="form-field">
+                            <h2>選擇計劃</h2>
+                            <form method="POST" action="memberpanel.html" id="choose-plan-form">
+                                <input type="hidden" id="form-plan" name="form-plan">
+                            </form>
+                            <div class="row">
+                                <div class="col-md-5 mt-3 mt-md-0">
+                                    <a href="javascript:void(0);" data-plan="one-off" class="plan-selector one-off"></a>
+                                </div>
+                                <div class="col-md-7 mt-3 mt-md-0">
+                                    <a href="javascript:void(0);" data-plan="package" class="plan-selector plan-package"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+
+            </footer>
+        </div>
+        <!-- Scripts -->
+        <script src="js/app.js"></script>
+        <script src="js/compiled.register.js"></script>
+    </body>
+</html>
