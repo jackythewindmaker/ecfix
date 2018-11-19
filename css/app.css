@@ -12774,8 +12774,9 @@ header .menu ul li .login-btn:hover {
 }
 
 .member-panel #main-content {
-  background: url("../img/member_panel_building.jpg") bottom center no-repeat #ffffff;
+  background: #ffffff;
   position: relative;
+  font-size: 1rem;
 }
 
 .member-panel #main-content .page-title {
@@ -12941,7 +12942,8 @@ header .menu ul li .login-btn:hover {
 }
 
 .member-panel #main-content .custom-select {
-  background: #fff;
+  background: #ffffff;
+  line-height: 1;
 }
 
 .member-panel #main-content .form-control[readonly] {
@@ -12977,6 +12979,7 @@ header .menu ul li .login-btn:hover {
 
 @media (min-width: 992px) {
   .member-panel #main-content {
+    background: url("../img/member_panel_building.jpg") bottom center no-repeat #ffffff;
     width: calc(100% - 350px);
   }
 }

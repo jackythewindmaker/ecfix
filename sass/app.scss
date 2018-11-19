@@ -421,8 +421,9 @@ header{
 		}
 	}
 	#main-content{
-		background:url('../img/member_panel_building.jpg') bottom center no-repeat #ffffff;
+		background:#ffffff;
 		position: relative;
+		font-size:1rem;
 		.page-title{
 			color:$theme_orange;
 			font-size:1.25rem;
@@ -557,7 +558,8 @@ header{
 			pointer-events:none;
 		}
 		.custom-select{
-			background:#fff;
+			background:#ffffff;
+			line-height:1; 
 		}
 		.form-control[readonly]{
 			background:#ffffff;
@@ -588,6 +590,7 @@ header{
 			}
 		}
 		@include desktop{
+			background:url('../img/member_panel_building.jpg') bottom center no-repeat #ffffff;
 			width:calc(100% - 350px);
 		}
 	}
