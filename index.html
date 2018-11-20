@@ -11,7 +11,7 @@
     <body>
         <div class="wrapper">
             <header>
-                <div class="container d-flex justify-content-between">
+                <div class="container d-none d-lg-flex justify-content-between">
                     <a href="/" class="logo"><img src="img/logo.svg"></a>
                     <div class="menu d-flex align-items-center">
                         <ul class="list-unstyled">
@@ -22,8 +22,30 @@
                         </ul>
                     </div>
                 </div>
+                <div class="mobile-menu d-flex d-lg-none justify-content-between align-items-center">
+                    <a href="memberpanel.html" class="logo"><img src="img/logo_white.svg"></a>
+                    <a href="javascript:void(0);" class="mobile-menu-trigger">
+                        <div class="mobile-button">
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
             </header>
             <main>
+                <div id="sidemenu" class="d-lg-none">
+                    <a href="/" class="logo mb-3"><img src="img/logo_white.svg"></a>
+                    <ul class="member-menu list-unstyled">
+                        <li>
+                            <a href="#">主頁</a>
+                        </li>
+                        <li>
+                            <a href="#">關於我們</a>
+                        </li>
+                        <li>
+                            <a href="#">服務簡介</a>
+                        </li>
+                    </ul>
+                </div>
                 <div id="homepage-banner">
                     <div class="container-fluid">
                         <div class="intro-texting text-center">

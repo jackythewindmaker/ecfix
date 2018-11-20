@@ -1,8 +1,1 @@
-$(function(){
-	$(".plan-selector").click(function(e){
-		e.preventDefault();
-		$("#form-plan").val($(this).data('plan'));
-		$("#choose-plan-form").submit();
-	})
-})
-//# sourceMappingURL=compiled.register.js.map
+$(function(){$(".plan-selector").click(function(n){n.preventDefault(),$("#form-plan").val($(this).data("plan")),$("#choose-plan-form").submit()})});
