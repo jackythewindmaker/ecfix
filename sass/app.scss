@@ -47,7 +47,10 @@ $theme_orange_bg: #ea491c;
 
 
 html{
-	font-size:16px;
+	font-size:14px;
+	@include tablet{
+		font-size:16px;
+	}
 	@include desktop{
 		font-size:24px;
 	}
@@ -440,6 +443,7 @@ header{
 #sidemenu{
 	position:absolute;
 	width:350px;
+	max-width:80%;
 	height:100vh;
 	top:0;
 	left:-350px;
@@ -606,7 +610,10 @@ header{
 			font-size:1.25rem;
 		}
 		.module-wrapper{
-			padding:70px 90px;
+			padding:70px 20px;
+			@include desktop{
+				padding:70px 90px;
+			}
 		}
 		#member-summary{
 			width:100%;
@@ -686,10 +693,16 @@ header{
 			.book-now{
 				display:block;
 				border-radius: 50%;
-				width:450px;
-				height:450px;
+				width:280px;
+				height:280px;
+				margin:0 auto;
 				text-indent:-9999px;
 				background:url('../img/book_now_button.png') center center no-repeat #FBB931;
+				background-size:cover;
+				@include desktop{
+					width:450px;
+					height:450px;
+				}
 			}
 			.row{
 				margin-left:calc(-1.25rem / 2);
